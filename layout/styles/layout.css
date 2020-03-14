@@ -403,7 +403,7 @@ table a, #comments a{background-color:inherit;}
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
 
 	#footer{}
-
+         #backtotop {max-width:none;}
 	#copyright{}
 	#copyright p:first-of-type{margin-bottom:10px;}
 }
