@@ -275,12 +275,13 @@ a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey ba
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#CF9C67;}
-p{color:#79756e;}
+.p{color:#e27811;}
+figcaption .p{color:#79756e;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,0);}
 .overlay.light::after{background-color:rgba(0,0,0,0);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#f39454; border-color:#f39454;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#ec8e5c; border-color:#ec8e5c;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background:rgba(0,0,0,0);}
@@ -403,7 +404,7 @@ table a, #comments a{background-color:inherit;}
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
 
 	#footer{}
-         #backtotop {max-width:none;}
+  #backtotop {}
 	#copyright{}
 	#copyright p:first-of-type{margin-bottom:10px;}
 }
@@ -420,7 +421,7 @@ table a, #comments a{background-color:inherit;}
 
 	#pageintro article{max-width:none; text-align:left;}
 	#pageintro .heading{font-size:2rem;}
-    #backtotop {max-width:none;}
+    #backtotop {}
 	.sectiontitle{max-width:none;}
 
 	.services + footer{text-align:left;}
