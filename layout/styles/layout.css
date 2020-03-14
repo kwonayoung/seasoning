@@ -379,14 +379,14 @@ table a, #comments a{background-color:inherit;}
 
 
 @media screen and (min-width:978px){
-	.hoc{max-width:978px;}
+	.hoc{max-width:100%;}
 }
 
 
 /* Mobile Devices
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:900px){
-	.hoc{max-width:90%;}
+	.hoc{max-width:100%;}
 
 	#topbar{}
 
