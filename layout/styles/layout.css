@@ -35,7 +35,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:4px 0 0 5px;}
+#header #logo{margin:4px 0 0 2px;}
 #header #logo h1{margin: 5px 0 0 0; padding: 0px; font-size:53px;  text-transform:uppercase;}
  #logo h7 {margin:0 0 0 12px;}
 /* Page Intro
@@ -73,17 +73,17 @@ File: Layout CSS
 .clients li a{display:inline-block; max-width:100%;}
 
 .meta li{display:inline-block; font-size:.8rem;}
-.meta li::after{margin-left:5px; content:"|";}
+.meta li::after{margin-left:25px; content:"|";}
 .meta li:last-child::after{margin:0; content:"";}
 
-.team{margin-bottom:80px;}
-.team figure{display:block; position:relative; max-width:320px;}
+.team{margin-bottom:60px; }
+.team figure{display:block; position:relative; padding:0; max-width:100%;}
 .team > figure:last-child{margin-bottom:0;}/* Used when elements stack in smaller viewports */
-.team figure figcaption{padding-top:15px; text-align:center;}
-.team figure figcaption *{margin:0;}
-.team figure figcaption .heading{margin-bottom:8px; font-size:1.2rem;}
+.team figure figcaption{padding:15px; text-align:center; }
+.team figure figcaption {margin:0;}
+.team figure figcaption .heading{margin-bottom:8px;text-align:center; font-size:1.2rem;}
 .team figure figcaption em{display:block; font-size:.8rem; font-style:normal;}
-.team figure figcaption footer{margin-top:15px;}
+.team figure figcaption footer{margin-top:13px;}
 .team figure figcaption footer .faico li{margin:0 1px;}
 .team figure figcaption footer .faico li a{width:30px; height:30px; line-height:30px; font-size:12px;}
 
@@ -237,8 +237,9 @@ td{border-width:0 1px;}
 /* Gallery
 --------------------------------------------------------------------------------------------------------------- */
 #gallery{display:block; width:100%; margin-bottom:50px;}
-#gallery figure figcaption{display:block; width:100%; clear:both;}
+#gallery figure figcaption{display:block; width:100%;  clear:both;}
 #gallery li{margin-bottom:30px;}
+
 
 
 /* Font Awesome Social Icons
@@ -274,7 +275,7 @@ a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey ba
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#CF9C67;}
-
+p{color:#df7208;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,0);}
 .overlay.light::after{background-color:rgba(0,0,0,0);}
@@ -288,7 +289,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#CF9C67;}
 
 /* Rows */
 .row0, .row0 a{color:#FFFFFF;}
-.row1{color:#FFFFFF; background-color:rgba(240,126,50,.60);}
+.row1{color:#FFFFFF; background-color:rgba(240,126,50,.50);}
 .row2{color:#FFFFFF; background-color:#222222;}
 .row3{color:#7A7A7A; background-color:#FFFFFF;}
 .row4{color:#7A7A7A; background-color:#F7F7F7;}
@@ -330,7 +331,6 @@ if your not worried about it, simply delete it, as the placeholder will take on 
 
 /* Footer */
 #footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(0,0,0,.1);}
-
 
 /* Navigation */
 #mainav li a{color:inherit;}
