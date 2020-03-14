@@ -411,8 +411,6 @@ table a, #comments a{background-color:inherit;}
 
 
 @media screen and (max-width:750px){
-    	.hoc{max-width:750px;}
-
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
 	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
@@ -431,11 +429,11 @@ table a, #comments a{background-color:inherit;}
 	.cta > :first-child{margin-top:0;}
 }
 
-
+<!--
 /* Other
---------------------------------------------------------------------------------------------------------------- */
+-------------------------------------------------------------------------------------------------------------
+<!--
 @media screen and (max-width:650px){
-    .hoc{max-width:650px;}
 	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
 	.scrollable table{margin:0; padding:0; white-space:nowrap;}
 
