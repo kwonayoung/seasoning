@@ -58,7 +58,7 @@ File: Layout CSS
 .sectiontitle{display:block; max-width:55%; margin:0 auto 80px; text-align:center;}
 .sectiontitle *{margin:0;}
 
-.services{margin-bottom:50px;}
+.services{margin-bottom:30px;}
 .services > li > ul li{margin-bottom:10px;}
 .services > li:last-child, .services > li > ul li:last-child{margin-bottom:0;}/* Used when elements stack in smaller viewports */
 .services > li > ul li i{margin-right:8px;}
@@ -76,11 +76,11 @@ File: Layout CSS
 .meta li::after{margin-left:25px; content:"|";}
 .meta li:last-child::after{margin:0; content:"";}
 
-.team{margin-bottom:10px; }
-.team figure{display:inherit; position:relative; text-align:center; padding:0; max-width:100%; margin-right:15px; }
+.team{margin-bottom:10px; text-align:center;}
+.team figure{display:inherit; position:relative; text-align:center; padding:0; max-width:100%; margin-right:10px; margin-left:12px;  }
 .team > figure:last-child{margin:0;}/* Used when elements stack in smaller viewports */
 .team figure figcaption{padding:0x; text-align:center; }
-.team figure figcaption {margin-right:0;}
+.team figure figcaption 
 .team figure figcaption .heading{margin-bottom:8px;text-align:center; font-size:1.2rem;}
 .team figure figcaption em{display:block; font-size:.8rem; font-style:normal;}
 .team figure figcaption footer{margin-top:8px;}
@@ -275,7 +275,7 @@ a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey ba
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#CF9C67;}
-.p{color:#e27811;}
+
 figcaption .p{color:#79756e;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,0);}
@@ -345,10 +345,21 @@ if your not worried about it, simply delete it, as the placeholder will take on 
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
 .container .sidebar nav a:hover{color:#f07e32;}
-
+/*
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#f07e32;}
+--*>
+/* ----------------------------------------------Pagination------------------------------------- */
 
+#gallery .pagination{display:block; width:100%; margin:10px 0 0 0; padding:0; clear:both; text-align:center;}
+#gallery .pagination ul{margin:0; padding:0; list-style-type:none;}
+#gallery .pagination li{float:none; margin:0; padding:0; width:auto; height:auto; border:none; line-height:inherit;}
+#gallery .pagination a{margin:0 2px 0 0; padding:2px 5px; color:#FFFFFF; background-color:#000000; border:1px solid #000000;}
+#gallery .pagination a:hover{color:#FFFFFF; background-color:#AAD83E; border:1px solid #AAD83E;}
+#gallery .pagination li.current{margin:0 2px 0 0; padding:2px 5px; background-color:#AAD83E; border:1px solid #AAD83E;}
+#gallery .pagination li.divider{margin:0 2px 0 0; padding:2px 5px; color:#6C8085; background-color:#1A2022; border:1px solid #1A2022;}
+#gallery .pagination li.firstpage{margin:0 40px 0 0;}
+#gallery .pagination li.lastpage{margin:0 0 0 40px;}
 #backtotop{color:#FFFFFF; background-color:#f07e32;}
 
 
