@@ -101,7 +101,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 .one_half1{ clear:left; display:inline-block; float:left; margin:0 0 0 1.3%; list-style:none;} 
 .first{margin-left:-0; clear:left;}
 
-.one_quarter{width:22.69938650306748%;}
+.one_quarter{width:20.69938650306748%;}
 .one_third{width:31.28834355828221%;}
 .one_half, .two_quarter{width:20.46625766871166%;}
 .one_half1 {width:98%;}
