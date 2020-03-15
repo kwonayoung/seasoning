@@ -76,15 +76,15 @@ File: Layout CSS
 .meta li::after{margin-left:25px; content:"|";}
 .meta li:last-child::after{margin:0; content:"";}
 
-.team{margin-bottom:60px; }
-.team figure{display:block; position:relative; padding:0; max-width:100%;}
-.team > figure:last-child{margin-bottom:0;}/* Used when elements stack in smaller viewports */
-.team figure figcaption{padding:15px; text-align:center; }
-.team figure figcaption {margin:0;}
+.team{margin-bottom:10px; }
+.team figure{display:inherit; position:relative; text-align:center; padding:0; max-width:100%; margin-right:15px; }
+.team > figure:last-child{margin:0;}/* Used when elements stack in smaller viewports */
+.team figure figcaption{padding:0x; text-align:center; }
+.team figure figcaption {margin-right:0;}
 .team figure figcaption .heading{margin-bottom:8px;text-align:center; font-size:1.2rem;}
 .team figure figcaption em{display:block; font-size:.8rem; font-style:normal;}
-.team figure figcaption footer{margin-top:13px;}
-.team figure figcaption footer .faico li{margin:0 1px;}
+.team figure figcaption footer{margin-top:8px;}
+.team figure figcaption footer .faico li{margin:0 ;}
 .team figure figcaption footer .faico li a{width:30px; height:30px; line-height:30px; font-size:12px;}
 
 .latest{margin-bottom:80px;}
