@@ -35,9 +35,9 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:4px 0 0 2px;}
-#header #logo h1{margin: 5px 0 0 0; padding: 0px; font-size:53px;  text-transform:uppercase;}
- #logo h7 {margin:0 0 0 12px;}
+#header #logo{margin:4px 0 0 0px; }
+#header #logo h1{margin: 0 0 0 0;  font-size:53px;  text-transform:uppercase;}
+ #logo h7 {margin:0 0 0 3px;}
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding: 300px;}
@@ -392,7 +392,7 @@ table a, #comments a{background-color:inherit;}
 	.hoc{max-width:978px;}
 }
 
-
+ 
 /* Mobile Devices
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:900px){
@@ -438,6 +438,8 @@ table a, #comments a{background-color:inherit;}
 
 	.cta > :first-child{margin-top:0;}
 }
+
+
 
 
 /* Other
