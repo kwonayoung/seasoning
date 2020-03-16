@@ -99,13 +99,13 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 --------------------------------------------------------------------------------------------------------------- */
 .one_half,one_half first .one_third, .two_third, .two_quarter, .three_quarter{display:block; float:right; margin:0 10% 0 0; list-style:none;}
 .one_quarter{display:inherit; float:right; margin:0 0 0 0;  text-align:center; }
-.one_half1{ clear:left; display:inline-block; float:left; margin:0 0 0 1.3%; list-style:none;} 
+.swiper-container{ clear:left; display:inline-block; float:left; margin:0%; list-style:none;} 
 .first{margin-left:-0; clear:left;}
 
 .one_quarter{width:20.69938650306748%;}
 .one_third{width:31.28834355828221%;}
 .one_half, .two_quarter{width:20.46625766871166%;}
-.one_half1 {width:98%;}
+.swiper-container {width:98%;}
 .two_third{width:65.6441717791411%;}
 .three_quarter{width:74.23312883435584%;}
 
