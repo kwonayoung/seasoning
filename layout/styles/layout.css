@@ -285,7 +285,7 @@ figcaption .p{color:#79756e;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .btn2, .btn2.inverse:hover{color:#FFFFFF; background-color:#ec8e5c; border-color:#ec8e5c;}
-.btn2:hover, .btn2.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+.btn2:hover, .btn2.inverse{color:inherit; background-color:transparent; border-color:inherit; text-align: center;}
 
 .imgover:hover::before{background:rgba(0,0,0,0);}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
