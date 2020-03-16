@@ -345,12 +345,12 @@ if your not worried about it, simply delete it, as the placeholder will take on 
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
 .container .sidebar nav a:hover{color:#f07e32;}
-/*
+
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#f07e32;}
---*>
-/* ----------------------------------------------Pagination------------------------------------- */
 
+/* ----------------------------------------------Pagination------------------------------------- */
+/*
 #gallery .pagination{display:block; width:100%; margin:10px 0 0 0; padding:0; clear:both; text-align:center;}
 #gallery .pagination ul{margin:0; padding:0; list-style-type:none;}
 #gallery .pagination li{float:none; margin:0; padding:0; width:auto; height:auto; border:none; line-height:inherit;}
