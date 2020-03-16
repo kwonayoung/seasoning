@@ -393,6 +393,7 @@ table a, #comments a{background-color:inherit;}
 
 @media screen and (min-width:978px){
 	.hoc{max-width:978px;}
+    .page{width:100%;}
 }
 
  
