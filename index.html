@@ -12,7 +12,13 @@ Licence URI: https://www.os-templates.com/template-terms
 <title>seasoning</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
+ 
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="layout/css/swiper.min.css">
+
+
+
+
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -108,17 +114,53 @@ Licence URI: https://www.os-templates.com/template-terms
       </div>
     </article>
 -->
+         <!---
      <div class="wrapper row3">
   <main class="hoc container clear">    
       
       <div class="one_half1"><a  href="#"><img src="images/demo/005.jpg" alt=""></a></div>
    
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
+     main body 
         
   </main>
+         
 </div>
-        
+    -->
+         
+           <div class="wrapper row3">
+  <main class="hoc container clear">  
+      <div class="swiper-container"> 
+     <div class="swiper-wrapper"> 
+       <div class="swiper-slide"><img src="images/demo/001.jpg" alt=""></div> 
+       <div class="swiper-slide"><img src="images/demo/002.jpg" alt=""></div> 
+       <div class="swiper-slide"><img src="images/demo/003.jpg" alt=""></div> 
+       <div class="swiper-slide"><img src="images/demo/004.jpg" alt=""></div> 
+       <div class="swiper-slide"><img src="images/demo/005.jpg" alt=""></div> 
+         <!--
+       <div class="swiper-slide">Slide 6</div> 
+       <div class="swiper-slide">Slide 7</div> 
+       <div class="swiper-slide">Slide 8</div> 
+       <div class="swiper-slide">Slide 9</div> 
+       <div class="swiper-slide">Slide 10</div> 
+         -->
+     </div> 
+          
+     <!-- Add Pagination --> 
+     <div class="swiper-pagination"></div> 
+     <!-- Add Arrows --> 
+     <div class="swiper-button-next"></div> 
+     <div class="swiper-button-prev"></div> 
+   </div>    
+      <div id = "page_number">1</div>
+
+
+               </main>
+         
+         
+         
+         
+         
+   <!--     
    <div class="wrapper row3">
   <div class="hoc container clear"> 
        <div class="page"> 
@@ -280,11 +322,82 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+    </footer>
 <!-- JAVASCRIPTS -->
+      
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
-    </footer>
+
+    
+    
+    <!-- Swiper JS -->
+
+
+
+<script src="layout/js/swiper.min.js"></script>
+    
+<script src="layout/js/jquery.js"></script>
+
+
+<script language = "javascript">
+
+function SetPageNumber(nPageNumber)
+
+ {
+
+document.getElementById("page_number").innerHTML = nPageNumber;
+
+ }
+
+</script>
+
+
+<!-- Initialize Swiper -->
+
+<script>
+
+$(document).ready(function () {
+
+
+var mySwiper = new Swiper('.swiper-container',{
+
+pagination: {
+
+el: '.swiper-pagination',
+
+clickable: true,
+
+renderBullet: function (index, className) {
+
+return '<span class="' + className + '">' + (index + 1) + '</span>';
+
+ },
+
+ }, 
+
+on: {
+
+slideChangeTransitionEnd: function(){
+
+//alert(this.activeIndex);
+
+SetPageNumber(this.activeIndex+1);
+
+ },
+
+ },
+
+ })
+
+
+
+});
+
+
+    </script>
+   
+    </div>
     </div>
     </div>
 </body>
