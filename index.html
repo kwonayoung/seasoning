@@ -136,6 +136,7 @@ Licence URI: https://www.os-templates.com/template-terms
        <div class="swiper-slide"><img src="images/demo/003.jpg" alt=""></div> 
        <div class="swiper-slide"><img src="images/demo/004.jpg" alt=""></div> 
        <div class="swiper-slide"><img src="images/demo/005.jpg" alt=""></div> 
+         <div class="swiper-slide"><img src="images/demo/006.jpg" alt=""></div> 
          <!--
        <div class="swiper-slide">Slide 6</div> 
        <div class="swiper-slide">Slide 7</div> 
@@ -339,7 +340,30 @@ Licence URI: https://www.os-templates.com/template-terms
     
 <script src="layout/js/jquery.js"></script>
 
+    
+    
+    
+    
+    <!-- Swiper JS -->
+  <script src="layout/js/swiper.min.js"></script>
 
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+    
+    
+<!--
 <script language = "javascript">
 
 function SetPageNumber(nPageNumber)
@@ -353,7 +377,7 @@ document.getElementById("page_number").innerHTML = nPageNumber;
 </script>
 
 
-<!-- Initialize Swiper -->
+<!-- Initialize Swiper 
 
 <script>
 
