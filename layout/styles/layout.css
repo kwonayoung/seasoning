@@ -127,7 +127,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #footer{padding:80px 0;}
 
-#footer .heading{margin-bottom:50px; font-size:1.2rem;}
+#footer .heading{margin-bottom:50px; font-size:1.2rem; }
 
 #footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
@@ -375,11 +375,14 @@ figcaption .p{color:#79756e;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,0);}
 .overlay.light::after{background-color:rgba(0,0,0,0);}
 
+.btn1 {font-weight:500; color:#FFFFFF; background-color:#ec8e5c; }
+
+
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#ec8e5c; border-color:#ec8e5c;}
-.btn:hover,.btn1 .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
-.btn1 {color:#FFFFFF; background-color:#ec8e5c; border-color:#ec8e5c;}
+.btn:hover,.btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+
 .btn2, .btn2.inverse:hover{color:#FFFFFF; background-color:#ec8e5c; border-color:#ec8e5c;}
-.btn2:hover,.btn1 .btn2.inverse{color:inherit; background-color:transparent; border-color:inherit; text-align: center;}
+.btn2:hover, .btn2.inverse{color:inherit; background-color:transparent; border-color:inherit; text-align: center;}
 
 .imgover:hover::before{background:rgba(0,0,0,0);}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
@@ -522,7 +525,8 @@ table a, #comments a{background-color:inherit;}
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
 	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
-	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+	.one_half{display:block; float:left; width:auto; margin:0 0 30px 0; padding:0;}
+    .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
      .page{width:100%;}
 	#header{text-align:center;}
 	#header #logo{margin:0 0 15px 0;}
