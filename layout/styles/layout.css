@@ -376,10 +376,10 @@ figcaption .p{color:#79756e;}
 .overlay.light::after{background-color:rgba(0,0,0,0);}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#ec8e5c; border-color:#ec8e5c;}
-.btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
-
+.btn:hover,.btn1 .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+.btn1 {color:#FFFFFF; background-color:#ec8e5c; border-color:#ec8e5c;}
 .btn2, .btn2.inverse:hover{color:#FFFFFF; background-color:#ec8e5c; border-color:#ec8e5c;}
-.btn2:hover, .btn2.inverse{color:inherit; background-color:transparent; border-color:inherit; text-align: center;}
+.btn2:hover,.btn1 .btn2.inverse{color:inherit; background-color:transparent; border-color:inherit; text-align: center;}
 
 .imgover:hover::before{background:rgba(0,0,0,0);}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
