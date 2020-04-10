@@ -330,9 +330,10 @@ td{border-width:0 1px;}
 
 /* Gallery
 --------------------------------------------------------------------------------------------------------------- */
-#gallery{display:block; width:100%; margin-bottom:50px;}
-#gallery figure figcaption{display:block; width:100%;  clear:both;}
-#gallery li{margin-bottom:30px;}
+
+#gallery1{display:block; width:100%; margin-bottom:50px; margin-right: 30px;  margin-left: 30px;}
+#gallery1 .figure .figcaption{display:block; width:100%; clear:both;}
+#gallery1 li{margin-bottom:30px;}
 
 
 
@@ -449,8 +450,15 @@ if your not worried about it, simply delete it, as the placeholder will take on 
 .pagea, .pagestrong{border-color:#D7D7D7;}
 .page .current *{color:#FFFFFF; background-color:#f07e32;}
 
-/* ----------------------------------------------Pagination------------------------------------- */
 
+
+
+
+
+
+
+/* ----------------------------------------------Pagination------------------------------------- */
+/*
 #gallery .pagination{display:block; width:100%; margin:10px 0 0 0; padding:0; clear:both; text-align:center;}
 #gallery .pagination ul{margin:0; padding:0; list-style-type:none;}
 #gallery .pagination li{float:none; margin:0; padding:0; width:auto; height:auto; border:none; line-height:inherit;}
