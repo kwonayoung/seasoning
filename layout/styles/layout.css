@@ -38,6 +38,11 @@ File: Layout CSS
 #header #logo{margin:4px 0 0 0px; }
 #header #logo h1{margin: 0 0 0 0;  font-size:53px;  text-transform:uppercase;}
  #logo h7 {margin:0 0 0 3px;}
+
+
+.heading2{margin-top:30px; padding-top:50px; font-size:53px;  text-transform:uppercase; }
+
+
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding: 300px;}
